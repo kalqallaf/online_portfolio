@@ -1,0 +1,248 @@
+body {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+}
+
+#home-section .home-inner {
+    padding-top: 150px;
+}
+
+#home-section #profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+#home-section {
+  background: url(../images/mountain-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 700px;
+}
+
+#skills-section a {
+  color: inherit;
+}
+
+
+
+.project-img-container{
+  position:relative;
+  display:inline-block;
+  overflow: hidden;
+}
+
+
+.project-img-container .overlay{
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  background:rgb(0, 0, 0);
+  opacity:0;
+  transition:opacity 500ms ease-in-out;
+}
+.project-img-container:hover .overlay{
+  opacity:0.8;
+}
+
+
+.overlay span{
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%,-50%);
+  color:#fff;
+}
+
+
+
+
+#home-section .dark-overlay {
+  position: absolute;
+  top:0;
+  left:0;
+  width: 100%;
+  min-height: 700px;
+  background: rgba(0, 0, 0, 0.178)
+}
+
+.section-title, .edu-icon, .date {
+  color: rgb(48, 125, 226);
+}
+
+#edu-lists {
+  color: #707070
+}
+
+/* #skills-section i {
+  color: rgba(5, 31, 46, 0.774);
+} */
+
+#skills-section i:hover {
+  color: rgb(255, 255, 255);
+}
+
+#skills-section .skills-icon {
+  font-size: 5rem;
+}
+
+@media (max-width: 600px) {
+  #skills-section .skills-icon {
+    font-size: 4rem;
+  }
+}
+
+.blockquote {
+  border-left: 2px solid rgba(48, 125, 226, 0.486);
+}
+
+.dropdown-toggle:hover .dropdown-menu {
+  display: block; 
+  margin-top: 0; 
+  border: 10px solid black;
+}
+
+#resume-section .education-list-item {
+  border-bottom: 2px solid rgba(48, 125, 226, 0.11);
+  margin: 3rem 0 3rem 0;
+  
+} 
+
+.navbar {
+  background-color: rgba(243, 243, 243, 0.952);
+  border-bottom: 2px solid rgba(48, 125, 226, 0.952);
+  
+}
+
+.navbar a {
+  color: black;
+}
+
+/* Progress Bar Animation */
+
+.progress .javascript  {
+  animation: progressJavascript 3s ease-in-out;
+  animation-fill-mode: both;
+  
+}
+
+
+
+@keyframes progressJavascript {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 75%;
+  }
+}
+
+.progress .html5  {
+  animation: progressHTML 3s ease-in-out;
+  animation-fill-mode: both;
+  
+}
+
+@keyframes progressHTML {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 65%;
+  }
+}
+
+.progress .css3  {
+  animation: progressCSS3 3s ease-in-out;
+  animation-fill-mode: both;
+  
+}
+
+@keyframes progressCSS3 {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 60%;
+  }
+}
+
+.progress .bootstrap  {
+  animation: progressBootstrap 3s ease-in-out;
+  animation-fill-mode: both;
+  
+}
+
+@keyframes progressBootstrap {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 70%;
+  }
+}
+
+.progress .java  {
+  animation: progressJava 3s ease-in-out;
+  animation-fill-mode: both;
+  
+}
+
+@keyframes progressJava {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 80%;
+  }
+}
+
+.progress .python  {
+  animation: progressPython 3s ease-in-out;
+  animation-fill-mode: both;
+  
+}
+
+@keyframes progressPython {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 70%;
+  }
+}
+
+.progress .nodejs  {
+  animation: progressNodejs 3s ease-in-out;
+  animation-fill-mode: both;
+  
+}
+
+@keyframes progressNodejs {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 60%;
+  }
+}
+
+.progress .mysql  {
+  animation: progressMySQL 3s ease-in-out;
+  animation-fill-mode: both;
+  
+}
+
+@keyframes progressMySQL {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 75%;
+  }
+}
+
+
